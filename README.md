@@ -46,7 +46,7 @@ TesteNS (root node)
   campaignName - String
   campaignStartDate - java.sql.Date
   campaignEndDate - java.sql.Date
-  
+   
   Para implementação, é necessário tomcat 8.0, java 1.8, banco de dados mysql. deve-se acessar o arquivo persistence.xml, em src/META-INF, e trocar a string de conexão, usuário e senha. Devido à versatilidade do hibernate, o mysql não é necessário, apenas recomendado.
   Caso queria trocar de banco de dados, substituir também o dialect no persistence.xml pelo dialeto adequado. também é necessário maior configuração do arquivo log4j.properties, dependendo de como deseja "loggar" a aplicação.
   
